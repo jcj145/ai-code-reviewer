@@ -85,9 +85,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* 상단 광고 */}
-        <AdSense adSlot="pub-2560477584416882" />
-
         {/* 입력 영역 */}
         <div style={{ marginBottom: '30px' }}>
           <div style={{ marginBottom: '15px', display: 'flex', gap: '10px', alignItems: 'center' }}>
