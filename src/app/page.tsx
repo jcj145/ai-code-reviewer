@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import AdSense from '@/components/AdSense';
 
 export default function Home() {
   const [code, setCode] = useState('');
@@ -83,6 +84,9 @@ export default function Home() {
             </Link>
           </div>
         </div>
+
+        {/* 상단 광고 */}
+        <AdSense adSlot="pub-2560477584416882" />
 
         {/* 입력 영역 */}
         <div style={{ marginBottom: '30px' }}>
